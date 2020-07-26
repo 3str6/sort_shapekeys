@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Sort Shapekeys",
     "author": "gogo",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (2, 83, 0),
     "description": "Sort shapekeys",
     "warning": "",
@@ -231,6 +231,8 @@ class SRTSPK_OT_sort(bpy.types.Operator):
             target_index = target_object.data.shape_keys.key_blocks.find(shapekey_name)
             target_object.active_shape_key_index = target_index
             move_to_index(target_index, source_index)
+        
+        target_object.active_shape_key_index = 0
             
         return {'FINISHED'}
 
