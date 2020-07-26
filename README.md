@@ -5,7 +5,7 @@ FaceCap用にBlender上でシェイプキーを並べ替えるスクリプトで
 
 ## 機能一覧_Functions  
 ### Type  
-FaceCap用/iFacialMocap用かを選択します。  
+FaceCap/iFacialMocapを選択します。  
 以降のCheck, Create Missings, Sortはここで選択したTypeに従って処理します。  
 
 ### Check  
