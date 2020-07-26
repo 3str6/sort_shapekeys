@@ -1,6 +1,6 @@
 # Blender Add-on: Sort Shapekeys
 FaceCap用にBlender上でシェイプキーを並べ替えるスクリプトです。  
-
+<br>
 ![アドオン画像](./doc/sort_shapekeys_00.jpg)
 
 ## 機能一覧_Functions  
@@ -13,5 +13,5 @@ FaceCap用にBlender上でシェイプキーを並べ替えるスクリプトで
 存在しなかったシェイプキーを空シェイプキーとして作成します。  
 
 ### Sort  
-選択しているオブジェクトのシェイプキーを、FaceCap順にsortします。  
+選択しているオブジェクトのシェイプキーをFaceCap用にsortします。  
 FaceCap用シェイプキー52個すべてが揃っていない場合、この操作はキャンセルされます。  
