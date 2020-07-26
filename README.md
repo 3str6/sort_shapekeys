@@ -1,11 +1,11 @@
 # Blender Add-on: Sort Shapekeys
-FaceCap用にBlender上でシェイプキーを並べ替えるスクリプトです。[こちら](https://github.com/3str6/sort_shapekeys/releases/download/v1.0/sort_shapekeys.zip)    
+FaceCap用にBlender上でシェイプキーを並べ替えるスクリプトです。[DLはこちら](https://github.com/3str6/sort_shapekeys/releases/download/v1.0/sort_shapekeys.zip)    
 <br>
 ![アドオン画像](./doc/sort_shapekeys_00.jpg)
 
 ## 機能一覧_Functions  
 ### Type  
-FaceCap用/iFacialMocap用かを選択します。  
+FaceCap/iFacialMocapを選択します。  
 以降のCheck, Create Missings, Sortはここで選択したTypeに従って処理します。  
 
 ### Check  
